@@ -11,6 +11,9 @@ public class ExercicioSolicitacao01{
             JOptionPane.showMessageDialog(null, "Negativo");
         }else if( numero > entrada){
             JOptionPane.showMessageDialog(null, "positivo");
+        }else if( numero <= 0){
+            JOptionPane.showMessageDialog(null, "neutro");
+        }
 
         }
         
@@ -18,4 +21,3 @@ public class ExercicioSolicitacao01{
 
     }
     
-}
